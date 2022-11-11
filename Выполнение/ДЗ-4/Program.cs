@@ -96,12 +96,13 @@ namespace ДЗ_4
         static void Main()
         {
             int[] array;
+            Console.WriteLine("Введите число элементов:");
             int n = int.Parse(Console.ReadLine());
             array = new int[n];
             Random r = new Random();
             for(int i = 0; i < n; i++)
             {
-                array [i] = r.Next(-100, 100); 
+                array [i] = r.Next(-5, 5); 
             }
 
          Function function = new Function();
